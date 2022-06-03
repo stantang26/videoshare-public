@@ -1,0 +1,9 @@
+POST http://localhost:3001/upload
+Content-Type: application/json
+
+ {    
+    "vidname" : "test4",
+    "description" : "121223"
+ }
+###
+GET http://localhost:3001/video
